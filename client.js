@@ -16,7 +16,7 @@ const connect = function (data) {
     // conn.write("Move: down");
   });
 
-  console.log('message from server', data);
+  // console.log('message from server', data);
 
   
 
@@ -26,8 +26,8 @@ const connect = function (data) {
   return conn;
 };
 
-console.log("Connecting ...");
-connect();
+// console.log("Connecting ...");
+// connect();
 
 module.exports = {
   connect,
